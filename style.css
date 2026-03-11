@@ -74,7 +74,7 @@ h5 {
 /* Style the card for phone error alerts (do not edit)*/
 .cardError {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 5px 3px 15px 3px;
+  padding: 10px 3px 15px 3px;
   line-height: 1em;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -139,7 +139,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: green;
-  color: white;
+  color: lightgrey;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
   text-align: center;
