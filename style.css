@@ -86,14 +86,16 @@ h5 {
 }
 
 /* Style the card for notes sections */
+
+
 .cardNotes {
   padding: 85px 10px 10px 45px;
   border-radius: 10px px 10px 10px;
   text-align: left;
-  background-color: white;
-  background-image: url("https://i.pinimg.com/736x/1d/db/c6/1ddbc6b2392b38e41a43f7e3738687a1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("https://cdn.pixabay.com/animation/2026/01/04/23/31/23-31-02-278_512.gif"), url("https://t4.ftcdn.net/jpg/03/07/90/19/360_F_307901946_oXxycrs1WOxR533v9cTbVV9jsCgXXIyC.jpg");
+  background-image: no-repeat, no-repeat;
+  background-size: cover, cover;  
+  background-position: left, top;
   min-height: 390px;
   color: lightgrey;
   font-family: "Source Code Pro", monospace;
