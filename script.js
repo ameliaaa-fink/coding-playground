@@ -18,8 +18,9 @@ const sent1 = [
   "Failure.",
   "Please contact support.",
   "Out of range.",
-  "Unexpected error. Please investigate.",
-  "You are Lost.",
+  "Unexpected error. Please h3L!7#823.",
+  "You are L0sT.",
+  "7#@%$^&*()_+",
 ];
 
 const buttonRetry = document.getElementById("button-network");
