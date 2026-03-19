@@ -27,9 +27,14 @@ h2 {
 
 /* header for error code Retry */
 h3 {
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: black;
-  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  text-align: top;
+  padding-top: 0px;
 }
 
 /* font used for title of haiku - edit this */
@@ -78,10 +83,10 @@ h5 {
   line-height: 1em;
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 200px;
+  width: 400px;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: grey;
+  font: "Pixelify Sans", sans-serif;
   color: black;
 }
 
@@ -189,16 +194,18 @@ h5 {
 /* style button for Network Error */
 .buttonNetwork {
   cursor: pointer;
-  color: blue;
-  background: white;
-  border: white;
+  color: black;
+  background: grey;
+  border: black;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 1.1em;
   text-align: center;
   position: relative;
-  padding-left: 75px;
+  padding-left: 175px;
 }
+
 
 /* specify the width of each card - the screen is 100% wide, so you can fit 4 x 25% columns in one row or 3 x 33% columns */
 .column {
