@@ -5,7 +5,6 @@ body {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 20px;
   margin: 2em;
-  background: #cbf1e4;
   background-image: linear-gradient(
     black,
     green,
@@ -23,6 +22,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+  background-color: green;
 }
 
 /* header for error code Retry */
@@ -110,15 +110,12 @@ h5 {
 /* Style the card for text messages */
 .cardText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("./img/txt-msg.png");
+  background-image: url("./img/kyle.png");
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 20px;
+  padding-left: 20px;
   padding-top: 110px;
-  padding-bottom: 450px;
-  line-height: 0.8em;
-  border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  padding-bottom: 200px;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -155,18 +152,22 @@ h5 {
 /* Style the card for the search results */
 .cardSearch {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
+  padding: 142px 10px 10px 52px;
+  padding-bottom: 1x;
   margin: 0;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: white;
+  background-image: url(img/google\ 2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Style the card for the poem function */
 .cardPoem {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 1x;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
@@ -356,130 +357,7 @@ img {
 }
 
 /* text message bubbles */
-.bubble {
-  background-image: linear-gradient(
-    180deg,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -moz-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -ms-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.25, rgb(210, 244, 254)),
-    color-stop(1, rgb(149, 194, 253))
-  );
-  border: solid 1px rgba(0, 0, 0, 0.5);
-  /* vendor rules */
-  border-radius: 20px;
-  /* vendor rules */
-  box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.4),
-    0 1px 3px rgba(0, 0, 0, 0.2);
-  /* vendor rules */
-  box-sizing: border-box;
-  clear: both;
-  float: left;
-  margin-bottom: 20px;
-  padding: 8px 30px;
-  position: relative;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
-  width: auto;
-  max-width: 100%;
-  word-wrap: break-word;
-}
 
-.bubble:before,
-.bubble:after {
-  border-radius: 20px / 10px;
-  content: "";
-  display: block;
-  position: absolute;
-}
-
-.bubble:before {
-  border: 10px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.5);
-  bottom: 0;
-  left: -7px;
-  z-index: -2;
-}
-
-.bubble:after {
-  border: 8px solid transparent;
-  border-bottom-color: #d2f4fe;
-  bottom: 1px;
-  left: -5px;
-}
-
-.bubble--alt {
-  background-image: linear-gradient(
-    180deg,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -moz-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -ms-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.25, rgb(172, 228, 75)),
-    color-stop(1, rgb(122, 205, 71))
-  );
-  float: right;
-}
-
-.bubble--alt:before {
-  border-bottom-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px / 10px;
-  left: auto;
-  right: -7px;
-}
-
-.bubble--alt:after {
-  border-bottom-color: #ace44b;
-  border-radius: 20px / 10px;
-  left: auto;
-  right: -5px;
-}
 /* end of bubble code */
 
 #poem > div {
