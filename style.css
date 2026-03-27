@@ -5,12 +5,11 @@ body {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 20px;
   margin: 2em;
-  background-image: linear-gradient(
-    black,
-    green,
-    rgb(163, 252, 163)
-  ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
+  background-image: url(img/error\ code\ screen.png); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* font used for dropdown menu - edit this*/
@@ -95,16 +94,16 @@ h5 {
 
 
 .cardNotes {
-  padding: 85px 10px 10px 45px;
+  padding: 200px 10px 10px 30px;
   border-radius: 10px px 10px 10px;
   text-align: left;
-  background-image: url("https://cdn.pixabay.com/animation/2026/01/04/23/31/23-31-02-278_512.gif"), url("https://t4.ftcdn.net/jpg/03/07/90/19/360_F_307901946_oXxycrs1WOxR533v9cTbVV9jsCgXXIyC.jpg");
+  background-image: url(img/windows\ blue\ screen.png);
   background-image: no-repeat, no-repeat;
   background-size: cover, cover;  
-  background-position: left, top;
+  background-position: center;
   min-height: 390px;
   color: lightgrey;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 15px;
 }
 
@@ -174,11 +173,11 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("https://giffiles.alphacoders.com/166/16604.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  background-image: url("https://img.itch.zone/aW1nLzEzNTA5Mjg4LmdpZg==/original/PqUKHM.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
   background-size: cover;
   background-repeat: no-repeat;
-  color: #68d911;
-  font-family: "Source Code Pro", monospace;
+  color: #ffffff;
+  font-family: "Special Elite", system-ui;
   font-size: 14px; 
 }
 
