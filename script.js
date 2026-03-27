@@ -42,16 +42,16 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "cool") {
+    addText("Mood: cool 😎");
+  } else if (x === "angsty") {
+    addText("Mood: angsty 👻");
+  } else if (x === "content") {
+    addText("Mood: content 😌");
+  } else if (x === "dorky") {
+    addText("Mood: dorky 🤓");
+  } else if (x === "flirty") {
+    addText("Mood: flirty 🤭");
   }
 }
 //end of dropdown function
