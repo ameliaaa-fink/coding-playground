@@ -5,24 +5,23 @@ body {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 20px;
   margin: 2em;
-  background: #cbf1e4;
-  background-image: linear-gradient(
-    black,
-    green,
-    rgb(163, 252, 163)
-  ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
+  background-image: url(img/error\ code\ screen.png); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Kalam", cursive;
-  text-shadow: 1px 1px white;
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
   font-size: 30px;
   font-style: bold;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
+  background-color: rgb(104, 134, 179);
 }
 
 /* header for error code Retry */
@@ -40,15 +39,16 @@ h3 {
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
-  font-size: 22px;
-  font-style: bold;
-  text-align: center;
+  font-family: "special elite", system-ui;
+  color:rgb(71, 71, 71);
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
 }
 
 /* font used for byline in header - edit this */
 h5 {
-  font-family: "Micro 5", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
@@ -94,48 +94,45 @@ h5 {
 
 
 .cardNotes {
-  padding: 85px 10px 10px 45px;
+  padding: 200px 10px 10px 30px;
   border-radius: 10px px 10px 10px;
   text-align: left;
-  background-image: url("https://cdn.pixabay.com/animation/2026/01/04/23/31/23-31-02-278_512.gif"), url("https://t4.ftcdn.net/jpg/03/07/90/19/360_F_307901946_oXxycrs1WOxR533v9cTbVV9jsCgXXIyC.jpg");
+  background-image: url(img/windows\ blue\ screen.png);
   background-image: no-repeat, no-repeat;
   background-size: cover, cover;  
-  background-position: left, top;
+  background-position: center;
   min-height: 390px;
   color: lightgrey;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 15px;
 }
 
 /* Style the card for text messages */
 .cardText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("./img/txt-msg.png");
+  background-image: url("./img/kyle.png");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  padding: 20px;
-  padding-top: 110px;
-  padding-bottom: 450px;
-  line-height: 0.8em;
-  border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  padding-left: 20px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Style the card for the dropdown function */
 .cardDropdown {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
-  padding-bottom: 80px;
+  padding: 10px 10px 100px 10px;
+  padding-bottom: 100px;
   min-height: 375px;
-  border-radius: 10px 10px 10px 10px;
-  text-align: center;
-  background-color: white;
-  background-image: url("./img/stationary.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  text-align: left;
+  background-color: rgb(228, 222, 192);
+  background-image: url("/img/status2.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  font-size: 28px;
-  font-family: "Kalam", cursive;
+  font: bold 15px "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
 }
 
 /* Style the card for the haiku function */
@@ -144,38 +141,43 @@ h5 {
   padding: 10px;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
-  text-align: center;
-  background-color: green;
-  color: lightgrey;
-  font-family: "PT Serif", serif; /* font for <p> text */
-  font-size: 14px;
-  text-align: center;
+  text-align: left;
+  background-image: url(img/transcript.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Special Elite", system-ui; /* font for <p> text */
+  font-size: 17px;
+  text-align: left;
+  font-color: rgb(92, 92, 92);
 }
 
 /* Style the card for the search results */
 .cardSearch {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
+  padding: 142px 1px 10px 52px;
+  padding-bottom: 100px;
   margin: 0;
   min-height: 375px;
-  border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: white;
+  background-image: url(img/google3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Style the card for the poem function */
 .cardPoem {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 1x;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("https://giffiles.alphacoders.com/166/16604.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  background-image: url("https://img.itch.zone/aW1nLzEzNTA5Mjg4LmdpZg==/original/PqUKHM.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
   background-size: cover;
   background-repeat: no-repeat;
-  color: #68d911;
-  font-family: "Source Code Pro", monospace;
+  color: #ffffff;
+  font-family: "Special Elite", system-ui;
   font-size: 14px; 
 }
 
@@ -355,130 +357,7 @@ img {
 }
 
 /* text message bubbles */
-.bubble {
-  background-image: linear-gradient(
-    180deg,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -moz-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -ms-linear-gradient(
-    bottom,
-    rgb(210, 244, 254) 25%,
-    rgb(149, 194, 253) 100%
-  );
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.25, rgb(210, 244, 254)),
-    color-stop(1, rgb(149, 194, 253))
-  );
-  border: solid 1px rgba(0, 0, 0, 0.5);
-  /* vendor rules */
-  border-radius: 20px;
-  /* vendor rules */
-  box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.4),
-    0 1px 3px rgba(0, 0, 0, 0.2);
-  /* vendor rules */
-  box-sizing: border-box;
-  clear: both;
-  float: left;
-  margin-bottom: 20px;
-  padding: 8px 30px;
-  position: relative;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
-  width: auto;
-  max-width: 100%;
-  word-wrap: break-word;
-}
 
-.bubble:before,
-.bubble:after {
-  border-radius: 20px / 10px;
-  content: "";
-  display: block;
-  position: absolute;
-}
-
-.bubble:before {
-  border: 10px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.5);
-  bottom: 0;
-  left: -7px;
-  z-index: -2;
-}
-
-.bubble:after {
-  border: 8px solid transparent;
-  border-bottom-color: #d2f4fe;
-  bottom: 1px;
-  left: -5px;
-}
-
-.bubble--alt {
-  background-image: linear-gradient(
-    180deg,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -moz-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -ms-linear-gradient(
-    bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
-  );
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.25, rgb(172, 228, 75)),
-    color-stop(1, rgb(122, 205, 71))
-  );
-  float: right;
-}
-
-.bubble--alt:before {
-  border-bottom-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px / 10px;
-  left: auto;
-  right: -7px;
-}
-
-.bubble--alt:after {
-  border-bottom-color: #ace44b;
-  border-radius: 20px / 10px;
-  left: auto;
-  right: -5px;
-}
 /* end of bubble code */
 
 #poem > div {

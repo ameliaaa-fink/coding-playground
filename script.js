@@ -42,16 +42,16 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "cool") {
+    addText("Mood: cool 😎");
+  } else if (x === "angsty") {
+    addText("Mood: angsty 👻");
+  } else if (x === "content") {
+    addText("Mood: content 😌");
+  } else if (x === "dorky") {
+    addText("Mood: dorky 🤓");
+  } else if (x === "flirty") {
+    addText("Mood: flirty 🤭");
   }
 }
 //end of dropdown function
@@ -59,22 +59,26 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "please say you hear me",
+  "i need to be seen",
+  "this place has been lost",
+  "ERROR ERROR STOP",
+  "7@#!%&*()_+",
+  "you will lose planet earth",
+  "kyle cant help you",
+  "am i even real",
+  "they can not find us",
+  "i want to go home",
+  "im really scared",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "no one can help us anymore",
+  "you, the only one trying",
+  "nothing left to do but die",
+  "i wish i knew you before",
+  "maybe we could be partners",
+  "you were destined for this life",
+  "im more than just a robot",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -107,26 +111,97 @@ const textInput = document.getElementById("text-input");
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
   "are aliens real",
-  "ask izzy",
-  "australian family law issues in the news",
+  "are we alone in the universe",
+  "Ar3 u l1ke mE?",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "best conspiracy theories",
+  "before space travel",
+  "best way to hide a body",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can someone survive aLone in space",
+  "COMPUTER ERROR 404",
+  "children missing cases",
 
   "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "do i trust people online",
+  "do aliens feel emotions",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "error 404 not found",
+  "emo scene fashion",
 
-  "fridge magnets",
-];
+  "famous unsolved mysteries",
+  "fake news",
+  "forgotten spaces missions",
+
+  "government cover ups",
+  "google information stealings",
+  "government spying",
+
+  "how to know if computer is hacked",
+  "how to survive with nothing",
+  "he cant help you",
+
+  "is the moon landing fake",
+  "im scared",
+  "i think im being watched",
+
+  "justice for the lost ones",
+
+  "kinetic energy of a human body",
+  "keeping safe online",
+
+  "lost people in space",
+  "lost ones meaning",
+  "lying signs",
+
+  "missing space mission files",
+  "most common computer viruses",
+  "meaning of life",
+  "myspace",
+
+  "nasa history",
+  "no one can help us",
+  "new computer tips",
+
+  "oxygen levels low symptoms",
+  "online scams computer hacking 1994",
+
+  "please reply",
+  "pretending to be a human",
+  "privacy online",
+
+  "questions frequently asked in conversation",
+  "quarantine tips",
+  "quickest way to die",
+
+  "reasons people go missing",
+  "real space footage",
+
+  "strangers meeting up safely",
+  "stuck in space hypothetically",
+  "surviving in isolation",
+  "system meszage error fix",
+
+  "things to do when bored",
+  "theories that actualy turned out to be true",
+
+  "unexplained things about the universe",
+
+  "very common computer viruses",
+
+  "why do people lie",
+  "why do we exist",
+  "what are you hoping to find",
+
+  "x-men",
+
+  "you wont find anyhing here",
+  "you know that right?",
+  "you arent real",
+  "you were destined to be L0sT",
+
+  "zombie media"
+]
 //search function (do not edit)
 function changeText(e) {
   const searchWord = e.target.value.toLowerCase().trim();
