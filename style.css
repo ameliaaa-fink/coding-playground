@@ -95,12 +95,12 @@ h5 {
 
 .cardNotes {
   padding: 200px 10px 10px 30px;
-  border-radius: 10px px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-image: url(img/windows\ blue\ screen.png);
-  background-image: no-repeat, no-repeat;
-  background-size: cover, cover;  
-  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;  
+  background-position: center top;
   min-height: 390px;
   color: lightgrey;
   font-family: "Pixelify Sans", sans-serif;
@@ -112,10 +112,10 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   background-image: url("./img/kyle.png");
   background-size: contain;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 200px;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -154,7 +154,7 @@ h5 {
 /* Style the card for the search results */
 .cardSearch {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 142px 1px 10px 52px;
+  padding: 138px 00px 0px 20px;
   padding-bottom: 100px;
   margin: 0;
   min-height: 375px;
@@ -162,6 +162,7 @@ h5 {
   background-image: url(img/google3.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Style the card for the poem function */
@@ -315,7 +316,6 @@ img {
 .text-box {
   max-width: 100%;
   max-height: 100%;
-  display: block;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens (do not edit)*/

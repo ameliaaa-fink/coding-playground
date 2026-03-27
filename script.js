@@ -106,7 +106,7 @@ function changeResults() {
 
 //start of search function
 const textWrapper = document.getElementById("text-wrapper");
-const textInput = document.getElementById("text-input");
+const textInput = document.getElementById("text-input1");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
