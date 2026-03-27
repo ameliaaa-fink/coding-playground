@@ -128,7 +128,7 @@ h5 {
   min-height: 375px;
   text-align: left;
   background-color: rgb(228, 222, 192);
-  background-image: url("/img/status2.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url(img/status2.png); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
